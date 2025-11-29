@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-section">
             <div className="footer-logo">
-              <img src="/assets/img/logo/logoSSB.webp" alt="Dr. Arun Saroha" />
+              <img src="/Logo.webp" alt="Dr. Arun Saroha" />
               <h3>Dr. Arun Saroha</h3>
             </div>
             <p>
