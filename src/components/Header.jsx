@@ -52,7 +52,7 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
           <div className="nav-content">
             <div className="logo">
               <a href="/">
-                <img src="../public/Logo.webp" alt="Dr. Arun Saroha" />
+                <img src="/Logo.webp" alt="Dr. Arun Saroha" />
                 <span>Dr. Arun Saroha</span>
               </a>
             </div>
