@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header Styles */
+.topbar {
+  background-color: #2f94e1;
+  padding: 10px 0;
+  color: white;
+}
+
+.header-contact a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-links a {
+  color: white;
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+/* Navigation */
+.logo-menu-wrap {
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-left ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.header-left a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.header-left a:hover {
+  color: #2f94e1;
+}
+
+/* Hero Section */
+.video-section {
+  height: 70vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/assets/video/sbi-banner.webp");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.main-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Services Grid */
+.services-area {
+  padding: 80px 0;
+}
+
+.service-front {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  height: 100%;
+}
+
+.service-front:hover {
+  transform: translateY(-5px);
+}
+
+.service-front img {
+  margin-bottom: 20px;
+}
+
+.service-front h3 {
+  color: #2f94e1;
+  margin-bottom: 15px;
+}
+
+/* Stats Section */
+.blue-layer {
+  background: #2f94e1;
+  color: white;
+  padding: 80px 0;
+}
+
+.fact-box {
+  margin-bottom: 30px;
+}
+
+.fact-box span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: block;
+}
+
+/* Why Choose Us */
+.serv-box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* FAQ */
+.accordion__btn {
+  width: 100%;
+  text-align: left;
+  padding: 20px;
+  background: white;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion__content {
+  padding: 20px;
+  background: #f9f9f9;
+  display: none;
+}
+
+.accordion__item--active .accordion__content {
+  display: block;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  padding: 50px 0 0;
+}
+
+.widget-title2 {
+  color: #2f94e1;
+  margin-bottom: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header-left ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .main-heading {
+    font-size: 2rem;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+}
