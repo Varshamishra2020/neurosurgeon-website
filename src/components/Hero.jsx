@@ -30,7 +30,7 @@ const Hero = () => {
             <div className="hero-image">
               <div className="image-card">
                 <img
-                  src="../public/dr-arun-saroha-removebg-preview.png"
+                  src="/dr-arun-saroha-removebg-preview.png"
                   alt="Dr. Arun Saroha"
                 />
                 <div className="card-overlay">
